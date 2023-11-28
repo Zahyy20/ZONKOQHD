@@ -1,0 +1,31 @@
+proxies:
+  - name: IDVLESS
+    server: bz.jajanvpn.top
+    port: 443
+    type: vless
+    uuid: 34e09592-558f-44db-8ff6-6314c4b9d6ca
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sb.scorecardresearch.com
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sb.scorecardresearch.com
+    udp: true
+  - name: ATHA
+    server: atha.jajanvpn.top
+    port: 443
+    type: vless
+    uuid: f948d5d8-1f16-415a-8dc7-c4f1c9edce5e
+    cipher: auto
+    tls: true
+    skip-cert-verify: true
+    servername: sb.scorecardresearch.com
+    network: ws
+    ws-opts:
+      path: /vless
+      headers:
+        Host: sb.scorecardresearch.com
+    udp: true
